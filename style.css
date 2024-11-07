@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400..700&family=Poetsen+One&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Edu TAS Beginner", cursive;
+}
+
+body {
+    background-color: var(--primary-text-color);
+}
+
+:root {
+    --primary-bg-color: #fc5811;
+    --primary-bg-color2: #efdfd2;
+    --primary-text-color: #efdfd2;
+}
+
+/* Header Style */
+
+.navbar-menu {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.navbar-menu li a {
+    text-decoration: none;
+}
+
+.navbar-menu li a:hover {
+    color: var(--primary-bg-color) !important;
+}
+
+.dropdown-toggle-icon {
+    display: none;
+}
+
+
+
+
+
+/* Footer Style */
+
+#footer_section {
+    background-color: #fc5811;
+}
+
+#footer_section #massesage {
+    color: var(--primary-text-color);
+}
+
+#footer_section h2 {
+    font-size: 45px;
+    font-family: "Poetsen One", sans-serif;
+    color: var(--primary-text-color);
+}
+
+#footer_section .border-primary {
+    border-color: var(--primary-bg-color) !important;
+}
+
+#footer_section span,
+a {
+    font-family: "Nunito Sans", sans-serif;
+    color: var(--primary-text-color);
+}
+
+#footer_section i {
+    color: var(--primary-text-color);
+}
+
+
+
+
+
+/* Responsive */
+
+@media (max-width: 768px) {
+    .navbar-menu {
+        display: none;
+        flex-direction: column;
+        background-color: #f8f9fa;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 200px;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .dropdown-toggle-icon {
+        display: inline-block;
+    }
+
+    .menu-container.active .navbar-menu {
+        display: flex;
+    }
+}

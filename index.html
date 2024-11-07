@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal - Portfolio</title>
+
+  <!-- Bootstrap CDN Link  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- Font Awosome CDN Link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- AOS Animation CDN Link  -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Custome Style Sheet  -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive-style.css">
+</head>
+
+<body class="bg-light">
+
+  <!-- Header Section Start  -->
+  <header>
+    <nav class="navbar bg-body-tertiary fixed-top shadow-sm">
+      <div class="container-lg">
+        <a class="navbar-brand text-warning fs-3 fw-bold" href="#">Redoy</a>
+        <div class="menu-container align-content-center">
+          <ul class="navbar-menu mb-0">
+            <li><a class="dropdown-item fs-5 text-warning" href="#home">Home</a></li>
+            <li><a class="dropdown-item fs-5 text-warning" href="#about">About</a></li>
+            <li><a class="dropdown-item fs-5 text-warning" href="#services">Services</a></li>
+            <li><a class="dropdown-item fs-5 text-warning" href="#portfolio">Portfolio</a></li>
+            <li><a class="dropdown-item fs-5 text-warning" href="#testimonials">Testimonials</a></li>
+            <li><a class="dropdown-item fs-5 text-warning" href="#contact">Contact</a></li>
+          </ul>
+          <button class="btn btn-warning px-3 dropdown-toggle-icon" type="button">
+            <i class="fa-solid fa-bars-staggered"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Header Section End  -->
+
+  <!-- Banner Secstion Start  -->
+  <section class="banner-section py-5" id="home">
+    <div class="container-lg min-vh-100 align-item-center align-content-center">
+      <div class="row">
+        <div class="col-md-6 mt-5 mt-md-0">
+          <div class="banner-img text-center">
+            <img src="img/my-photo.png" class="img-fluid rounded-circle" alt="Profile Img">
+          </div>
+        </div>
+        <div class="col-md-6 mt-5 mt-md-0 order-md-first align-content-center">
+          <div class="banner-text">
+            <span class="text-muted mb-3">Hello I'm</span>
+            <h1 class="text-warning text-uppercase fs-1 fw-bold mb-3">Web Designer & Developer</h1>
+            <h2 class="fs-3">Redoy Krishna Dash</h2>
+            <p class="text-muted mt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni vero officia
+              fugiat explicabo eligendi nemo quidem ipsam animi excepturi iure Lorem ipsum dolor sit, amet consectetur
+              adipisicing elit.</p>
+            <a class="btn btn-warning px-3 mt-3" href="#portfolio">My Work</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Banner Secstion Start  -->
+
+
+  <!-- About Section Start  -->
+  <section class="about-section pb-5" id="about">
+    <div class="container-lg">
+      <div class="row">
+        <div class="about-title text-center">
+          <h2 class="fs-1 fw-bold text-warning">About Me</h2>
+        </div>
+      </div>
+      <div class="row py-5">
+        <div class="col-md-6">
+          <div class="about-content">
+            <h3 class="fs-3 fw-medium mb-3">Lorem ipsum dolor, sit amet consectetur</h3>
+            <p class="text-muted my-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae dignissimos
+              quos aliquid nihil ex, libero quia temporibus optio. Nesciunt tempora pariatur fuga tenetur omnis quia
+              quibusdam recusandae iure, fugit iusto quasi! Id harum quaerat provident accusantium nam eveniet.</p>
+          </div>
+          <div class="row text-center mb-4">
+            <div class="col-sm-4">
+              <div class="fact-item">
+                <h2 class="fs-1 fw-bold text-warning">20+</h2>
+                <p class="text-muted text-uppercase">Project Complete</p>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="fact-item">
+                <h2 class="fs-1 fw-bold text-warning">16+</h2>
+                <p class="text-muted text-uppercase">Happy Clients</p>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="fact-item">
+                <h2 class="fs-1 fw-bold text-warning">18+</h2>
+                <p class="text-muted text-uppercase">Positive Reviews</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 d-flex align-items-center">
+              <a class="btn btn-warning px-4 me-5" href="#">Download CV</a>
+              <div class="social-link">
+                <a href="#" class="text-dark fs-5 me-2"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="text-dark fs-5 me-2"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="text-dark fs-5 me-2"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="text-dark fs-5 me-2"><i class="fa-brands fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+        <div class="col-md-6">
+          <div class="skilled-item mt-5 mt-md-0">
+            <h5 class="text-muted fs-6">Html</h5>
+            <div class="d-flex align-items-center">
+              <div class="progress flex-grow-1" role="progressbar" aria-label="Example 1px high" aria-valuenow="95"
+                aria-valuemin="0" aria-valuemax="100" style="height: 6px">
+                <div class="progress-bar bg-warning" style="width: 95%"></div>
+              </div>
+              <div class="d-flex align-items-center ms-2">
+                <span>95%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skilled-item">
+            <h5 class="text-muted mt-4 fs-6">CSS</h5>
+            <div class="d-flex align-items-center">
+              <div class="progress flex-grow-1" role="progressbar" aria-label="Example 1px high" aria-valuenow="90"
+                aria-valuemin="0" aria-valuemax="100" style="height: 6px">
+                <div class="progress-bar bg-warning" style="width: 90%"></div>
+              </div>
+              <div class="d-flex align-items-center ms-2">
+                <span>90%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skilled-item">
+            <h5 class="text-muted mt-4 fs-6">Bootstrap</h5>
+            <div class="d-flex align-items-center">
+              <div class="progress flex-grow-1" role="progressbar" aria-label="Example 1px high" aria-valuenow="80"
+                aria-valuemin="0" aria-valuemax="100" style="height: 6px">
+                <div class="progress-bar bg-warning" style="width: 80%"></div>
+              </div>
+              <div class="d-flex align-items-center ms-2">
+                <span>80%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skilled-item">
+            <h5 class="text-muted mt-4 fs-6">Wordpress</h5>
+            <div class="d-flex align-items-center">
+              <div class="progress flex-grow-1" role="progressbar" aria-label="Example 1px high" aria-valuenow="70"
+                aria-valuemin="0" aria-valuemax="100" style="height: 6px">
+                <div class="progress-bar bg-warning" style="width: 70%"></div>
+              </div>
+              <div class="d-flex align-items-center ms-2">
+                <span>70%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About Section End  -->
+
+
+  <!-- Services Section Start  -->
+  <section class="services section py-5" id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="services-title text-center py-5">
+            <h2 class="fs-1 fw-bold text-warning">What I Do</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row pb-5">
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+          <div class="main-caption shadow-sm mb-3">
+            <div class="card pb-4 pb-lg-5">
+              <div class="card-body text-center py-5">
+                <img src="img/HTML5.png" alt="">
+                <h5 class="card-title fs-4 mt-3">HTML</h5>
+                <p class="card-text text-muted mt-4">With supporting text below as a natural lead-in to additional
+                  content.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12 ">
+          <div class="main-caption shadow-sm mb-3">
+            <div class="card pb-5">
+              <div class="card-body text-center py-5">
+                <img src="img/CSS3.png" alt="">
+                <h5 class="card-title fs-4 mt-3">CSS3</h5>
+                <p class="card-text text-muted mt-4">With supporting text below as a natural lead-in to additional
+                  content.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12 ">
+          <div class="main-caption shadow-sm mb-3">
+            <div class="card pb-5">
+              <div class="card-body text-center py-5">
+                <img src="img/Bootstrap.png" alt="">
+                <h5 class="card-title fs-4 mt-3">Bootstrap</h5>
+                <p class="card-text text-muted mt-4">With supporting text below as a natural lead-in to additional
+                  content.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="row pb-5">
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+          <div class="main-caption shadow-sm mb-3">
+            <div class="card pb-4 pb-lg-5">
+              <div class="card-body text-center py-5">
+                <img src="img/JavaScript.png" alt="">
+                <h5 class="card-title fs-4 mt-3">JavaScript</h5>
+                <p class="card-text text-muted mt-4">With supporting text below as a natural lead-in to additional
+                  content.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12 ">
+          <div class="main-caption shadow-sm mb-3">
+            <div class="card pb-5">
+              <div class="card-body text-center py-5">
+                <img src="img/PHP.png" alt="">
+                <h5 class="card-title fs-4 mt-3">PHP</h5>
+                <p class="card-text text-muted mt-4">With supporting text below as a natural lead-in to additional
+                  content.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12 ">
+          <div class="main-caption shadow-sm mb-3">
+            <div class="card pb-5">
+              <div class="card-body text-center py-5">
+                <img src="img/React.png" alt="">
+                <h5 class="card-title fs-4 mt-3">React</h5>
+                <p class="card-text text-muted mt-4">With supporting text below as a natural lead-in to additional
+                  content.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Services Section End  -->
+
+  <!-- Portfolio Section Start  -->
+  <section class="Portfolio-section py-5" id="portfolio">
+    <div class="container-lg">
+      <div class="row">
+        <div class="cap text-center mb-5">
+          <h2 class="fs-1 fw-bold text-warning">Latest Work</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mb-4">
+            <img src="img/portfolio/1.jpg" class="w-100 img-thumbnail" alt="Portfolo img">
+            <h5 class="mt-3">Team Section</h5>
+            <a class="text-decoration-none text-danger" href="#">Live Demo</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mb-4">
+            <img src="img/portfolio/2.jpg" class="w-100 img-thumbnail" alt="Portfolo img">
+            <h5 class="mt-3">App Landing Page</h5>
+            <a class="text-decoration-none text-danger" href="#">Live Demo</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mb-4">
+            <img src="img/portfolio/3.jpg" class="w-100 img-thumbnail" alt="Portfolo img">
+            <h5 class="mt-3">Creative Team Section</h5>
+            <a class="text-decoration-none text-danger" href="#">Live Demo</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mb-4">
+            <img src="img/portfolio/4.jpg" class="w-100 img-thumbnail" alt="Portfolo img">
+            <h5 class="mt-3">Toggle Pricing Table</h5>
+            <a class="text-decoration-none text-danger" href="#">Live Demo</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mb-4">
+            <img src="img/portfolio/5.jpg" class="w-100 img-thumbnail" alt="Portfolo img">
+            <h5 class="mt-3">Bootstrap 5 Image Gallery</h5>
+            <a class="text-decoration-none text-danger" href="#">Live Demo</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mb-4">
+            <img src="img/portfolio/6.jpg" class="w-100 img-thumbnail" alt="Portfolo img">
+            <h5 class="mt-3">Filterable Image Gallery</h5>
+            <a class="text-decoration-none text-danger" href="#">Live Demo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Portfolio Available Section End  -->
+
+
+  <!-- Freelancer Available Section Start -->
+  <section class="freelancer-section py-5 bg-dark" id="">
+    <div class="container-lg">
+      <div class="row">
+        <div class="freelancer-title text-center">
+          <h6 class="text-light fs-4 pt-5">Do you have any project ?</h6>
+          <h2 class="text-white fs-1 fw-bold my-4">I'm Available For Freelancer Projects</h2>
+          <a class="btn btn-outline-light px-4" href="#contact">Hire Me</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Freelancer Section End -->
+
+  <!-- Testmonial Section Start  -->
+  <section class="testmonial-section bg-light py-5" id="testimonials">
+    <div class="container-lg">
+      <div class="row">
+        <div class="cap text-center my-5">
+          <h2 class="fs-1 fw-bold text-warning">Testimonial</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center ">
+        <div class="col-lg-7 col-xl-8">
+          <div class="testimonials">
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                  class="active bg-danger" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="bg-danger"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="bg-danger"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="wraper px-5 py-5 bg-white">
+                    <div class="testi-single d-flex">
+                      <img class="img-fluid img-thumbnail rounded-circle" src="img/testimonial/1.jpg" alt="">
+                      <div class="text align-content-center mx-4">
+                        <h5 class="fs-5">Minhaz</h5>
+                        <span class="text-muted">CEO Manager</span>
+                      </div>
+                    </div>
+                    <p class="text-muted pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, optio!
+                      Eos,
+                      soluta a accusamus, fugiat adipisci, fuga minus quod libero ullam expedita veniam maiores ea.</p>
+                    <div class="rating text-danger fs-5">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="wraper px-5 py-5 bg-white">
+                    <div class="testi-single d-flex">
+                      <img class="img-fluid img-thumbnail rounded-circle" src="img/testimonial/2.jpg" alt="">
+                      <div class="text align-content-center mx-4">
+                        <h5 class="fs-5">Kim Kardashian</h5>
+                        <span class="text-muted">Director</span>
+                      </div>
+                    </div>
+                    <p class="text-muted pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, optio!
+                      Eos,
+                      soluta a accusamus, fugiat adipisci, fuga minus quod libero ullam expedita veniam maiores ea.</p>
+                    <div class="rating text-danger fs-5">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="wraper px-5 py-5 bg-white">
+                    <div class="testi-single d-flex">
+                      <img class="img-fluid img-thumbnail rounded-circle" src="img/testimonial/3.jpg" alt="">
+                      <div class="text align-content-center mx-4">
+                        <h5 class="fs-5">Emon Roy</h5>
+                        <span class="text-muted">SEO Manager</span>
+                      </div>
+                    </div>
+                    <p class="text-muted pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, optio!
+                      Eos,
+                      soluta a accusamus, fugiat adipisci, fuga minus quod libero ullam expedita veniam maiores ea.</p>
+                    <div class="rating text-danger fs-5">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden bg-danger">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Testmonial Section End -->
+
+
+  <!-- Freequently Asked Question Section Start -->
+  <section class="faq-section py-5">
+    <div class="container m-auto">
+      <div class="row">
+        <div class="asked-text text-center py-5">
+          <h2 class="fs-1 fw-bold text-warning">Freequently Asked Question</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2">
+        </div>
+        <div class="col-lg-8">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  প্রশ্ন: ফ্রন্ট-এন্ড ডেভেলপমেন্ট কী?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>উত্তর: ফ্রন্ট-এন্ড ডেভেলপমেন্ট হলো ওয়েবসাইট বা ওয়েব</strong> অ্যাপ্লিকেশনের ব্যবহারকারীর
+                  দৃশ্যমান অংশ তৈরি করা এবং ইন্টারঅ্যাকশন পরিচালনা করা।
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  প্রশ্ন: আপনি কোন ধরনের ওয়েব ডেভেলপমেন্ট টুল এবং ফ্রেমওয়ার্ক ব্যবহার করেন?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  উত্তর: আমি React, Vue.js, এবং Angular-এর মতো ফ্রেমওয়ার্ক এবং টুল হিসেবে Webpack, npm, এবং Visual
+                  Studio Code ব্যবহার করি।
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  প্রশ্ন: কেন একটি ওয়েবসাইট রেসপন্সিভ হওয়া গুরুত্বপূর্ণ?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  উত্তর: রেসপন্সিভ ডিজাইন নিশ্চিত করে যে ওয়েবসাইটটি সব ধরনের ডিভাইসে (মোবাইল, ট্যাবলেট, ডেস্কটপ)
+                  ভালোভাবে প্রদর্শিত হয় এবং ব্যবহারকারীর অভিজ্ঞতা উন্নত করে।
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  প্রশ্ন: আপনি কীভাবে একটি ওয়েবসাইটের পারফরমেন্স অপটিমাইজ করেন?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  উত্তর: আমি ইমেজ অপটিমাইজেশন, লেজি লোডিং, CSS ও JavaScript মিনিফিকেশন, এবং CDN ব্যবহার করে পারফরমেন্স
+                  অপটিমাইজ করি।
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  প্রশ্ন: আপনার অভিজ্ঞতা কী কী ফ্রন্ট-এন্ড লাইব্রেরি বা ফ্রেমওয়ার্ক নিয়ে?
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  উত্তর: আমার React, Vue.js, এবং Angular নিয়ে কাজ করার ব্যাপক অভিজ্ঞতা রয়েছে, যা বিভিন্ন ধরনের প্রজেক্টে
+                  ব্যবহার করেছি।
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Freequently Asked Question Section End  -->
+
+
+  <!-- Contact Section Start  -->
+  <section class="contact-section py-5" id="contact">
+    <div class="container-lg">
+      <div class="row">
+        <div class="cap text-center my-5">
+          <h2 class="fs-1 fw-bold text-warning">Contact Me</h2>
+        </div>
+      </div>
+      <div class="row my-5">
+        <div class="col-md-5">
+          <div class="contact-item d-flex mb-4">
+            <div class="icon-item fs-4 text-danger me-3 text">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="text-area">
+              <h4 class="fs-5">Email</h4>
+              <a class="text-decoration-none text-muted fs-6"
+                href="mailto:bangla.tkg@gmail.com">bangla.tkg@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item d-flex mb-4">
+            <div class="icon-item fs-4 text-danger me-3 text">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="text-area">
+              <h4 class="fs-5">Phone</h4>
+              <a class="text-decoration-none text-muted fs-6" href="tel:+8801797732794">+8801797732794</a>
+            </div>
+          </div>
+          <div class="contact-item d-flex">
+            <div class="icon-item fs-4 text-danger me-3 text">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="text-area">
+              <h4 class="fs-5">Visit Office</h4>
+              <a class="text-decoration-none text-muted fs-6" href="mailto:bangla.tkg@gmail.com">Mirpur-10 Dhaka</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="contact-form">
+            <form action="#">
+              <div class="row">
+                <div class="col-lg-6 my-4">
+                  <input type="text" placeholder="Your Name"
+                    class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                </div>
+                <div class="col-lg-6 my-4">
+                  <input type="text" placeholder="Your Email"
+                    class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 mb-4">
+                  <input type="text" placeholder="Subject" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 mb-4">
+                  <textarea rows="7" placeholder="Your Message"
+                    class="form-control form-control-lg fs-6 border-0 shadow-sm"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <a href="#" class="btn btn-warning px-3">Send Message</a>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- Contact Section End -->
+
+  <!-- Footer Section Start -->
+
+  <footer id="footer_section" class="text-light py-5">
+    <div class="container">
+      <div class="row border-bottom border-primary pb-4">
+        <div class="col-md-4 mb-4">
+          <h2>Text us,<br> Let's get to work</h2>
+          <div class="mb-4 pt-3 border-top border-primary">
+            <span>Email</span> <br>
+            <a href="mailto:redoydash01@gmail.com" class="text-light text-decoration-none">redoydash01@gmail.com</a>
+          </div>
+          <div class="pt-3 border-top border-primary">
+            <span>Location</span> <br>
+            <a href="#" class="text-light text-decoration-none">Mirpur-10, Dhaka</a>
+          </div>
+        </div>
+        <div class="col-md-8 d-flex justify-content-center align-items-center">
+          <div class="position-relative">
+            <i id="massesage" class="fas fa-comment fa-10x position-absolute"
+              style="top: -140px; left: 50%; transform: translateX(-50%);"></i>
+            <span class="position-absolute text-light" style="top: -90 px;
+            right: -112px; font-size: 30px; width: 160px; bottom: 48px; color: #fc5811 !important;">Say Hi!</span>
+          </div>
+        </div>
+      </div>
+      <hr class="text-light my-5 h-25">
+      <div class="row pt-3 text-center text-md-start">
+        <div class="col-md-4">
+          <span>©2024 - Design by Redoy Krishna Dash</span>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center mb-2 mb-md-0">
+          <a href="#" class="text-light me-3"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="text-light me-3"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-light"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="col-md-4 text-md-end">
+          <a href="mailto:redoydash01@gmail.com" class="text-light text-decoration-none">
+            <h3 id="Clock">12:00:00 AM</h3>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Script File -->
+   <script src="main.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
